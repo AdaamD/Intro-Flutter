@@ -1,16 +1,21 @@
-# tp1_profil_card
+# Exercice Profile Card - Flutter
 
-A new Flutter project.
+Ce projet est une application de carte de profil développée avec Flutter dans le cadre du TP1 de Développement Mobile Avancé.
 
-## Getting Started
+## Fonctionnalités
 
-This project is a starting point for a Flutter application.
+- Affichage d'un profil commun pour deux étudiants
+- Navigation entre les profils individuels
+- Présentation des informations personnelles et académiques
+- Interface utilisateur élégante avec avatar et informations détaillées
 
-A few resources to get you started if this is your first Flutter project:
+## Structure du projet
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- `main.dart` : Point d'entrée de l'application et page principale avec la logique de navigation et d'affichage des profils
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Comment exécuter
+
+1. Assurez-vous d'avoir Flutter installé sur votre machine
+2. Clonez ce dépôt
+3. Exécutez `flutter pub get` pour installer les dépendances
+4. Lancez l'application avec `flutter run`

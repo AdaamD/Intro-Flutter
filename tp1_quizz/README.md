@@ -1,16 +1,23 @@
-# tp1
+# Exercice Quiz - Flutter
 
-A new Flutter project.
+Ce projet est un quiz interactif développé avec Flutter dans le cadre du TP1 de Développement Mobile Avancé.
 
-## Getting Started
+## Fonctionnalités
 
-This project is a starting point for a Flutter application.
+- Questions à choix vrai/faux
+- Feedback visuel pour les réponses correctes/incorrectes
+- Calcul et affichage du score final
+- Interface utilisateur intuitive avec des boutons pour répondre
 
-A few resources to get you started if this is your first Flutter project:
+## Structure du projet
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- `main.dart` : Point d'entrée de l'application
+- `quiz_page.dart` : Page principale du quiz
+- `score_page.dart` : Page d'affichage du score final
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Comment exécuter
+
+1. Assurez-vous d'avoir Flutter installé sur votre machine
+2. Clonez ce dépôt
+3. Exécutez `flutter pub get` pour installer les dépendances
+4. Lancez l'application avec `flutter run`
